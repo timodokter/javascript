@@ -1,7 +1,23 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
 #wrapper {
     margin:auto;
     width:70%;
 }
 body {
+    padding: 0px;
+    margin: 0px;
     font-family: 'Noto Serif', serif;
 }
+
+div #blokje1, #blokje2, #blokje3, #blokje4 {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
+}
+
