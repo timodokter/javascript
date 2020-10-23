@@ -1,6 +1,6 @@
 pics = document.getElementById("pics");
 createPicsHolders();
-createGameImages()
+createGameImages();
 
 function createPicsHolders() {
     for(var i = 0; i < 9; i++) {
@@ -16,11 +16,22 @@ function createGameImages() {
     for(var i = 0; i < pictureHolder.length; i++) {
         favoriet = document.createElement("div");
         favoriet.className = "favoriet";
+        favoriet.id = "favoriet_" + (i+1);
         gamePlaatje = document.createElement("img");
         gamePlaatje.src = "img/game" + (i+1) + ".jpg";
+        gamePlaatje.id = (i+1);
+        gamePlaatje.addEventListener("click", function() {
+            maakfavoriet(this.id);
+        });
         pictureHolder[i].appendChild(favoriet);
         pictureHolder[i].appendChild(gamePlaatje);
     }
+}
+
+function maakfavoriet(id) {
+    console.log("maak mij favoriet");
+    favoriet = document.getElementById("favoriet_" + id);
+    favoriet.style.backgroundImage = "url('img/heart.jpg')"
 }
 //picsHolders maken
 //picsHolder bevat een plaatje van een game en een favoriete symbool
