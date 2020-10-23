@@ -1,5 +1,6 @@
 pics = document.getElementById("pics");
 createPicsHolders();
+createGameImages()
 
 function createPicsHolders() {
     for(var i = 0; i < 9; i++) {
@@ -7,6 +8,15 @@ function createPicsHolders() {
         pictureHolder.className = "gamepicture";
         pictureHolder.id = "picture-holder" + i;
         pics.appendChild(pictureHolder);
+    }
+}
+
+function createGameImages() {
+    pictureHolder = document.getElementsByClassName("gamepicture");
+    for(var i = 0; i < pictureHolder.length; i++) {
+        gamePlaatje = document.createElement("img");
+        gamePlaatje.src = "img/game" + (i+1) + ".jpg";
+        pictureHolder[i].appendChild(gamePlaatje);
     }
 }
 //picsHolders maken
