@@ -30,6 +30,12 @@ function createGameImages() {
 
 function maakfavoriet(id) {
     console.log("maak mij favoriet");
+    notsofavoriet = document.getElementsByClassName("favoriet");
+
+    for (var i = 0; i <notsofavoriet.length; i++) {
+        notsofavoriet[i].style.backgroundImage = "none";
+    }
+
     favoriet = document.getElementById("favoriet_" + id);
     favoriet.style.backgroundImage = "url('img/heart.jpg')"
 }
