@@ -5,17 +5,20 @@ createGameImages()
 function createPicsHolders() {
     for(var i = 0; i < 9; i++) {
         pictureHolder = document.createElement("div");
-        pictureHolder.className = "gamepicture";
+        pictureHolder.className = "picture-holder";
         pictureHolder.id = "picture-holder" + i;
         pics.appendChild(pictureHolder);
     }
 }
 
 function createGameImages() {
-    pictureHolder = document.getElementsByClassName("gamepicture");
+    pictureHolder = document.getElementsByClassName("picture-holder");
     for(var i = 0; i < pictureHolder.length; i++) {
+        favoriet = document.createElement("div");
+        favoriet.className = "favoriet";
         gamePlaatje = document.createElement("img");
         gamePlaatje.src = "img/game" + (i+1) + ".jpg";
+        pictureHolder[i].appendChild(favoriet);
         pictureHolder[i].appendChild(gamePlaatje);
     }
 }

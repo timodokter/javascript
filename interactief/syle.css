@@ -3,13 +3,19 @@ body {
     text-align: center;
 }
 
-div.gamepicture {
+div.picture-holder {
     box-sizing: border-box;
     height: 450px;
     width: 300px;
     float: left;
     background-color: red;
     border: solid 1px black;
+}
+
+div.favoriet {
+    height: 150px;
+    width: 300px;
+    background-color: blue;
 }
 
 #pics {
