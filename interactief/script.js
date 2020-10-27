@@ -39,8 +39,3 @@ function maakfavoriet(id) {
     favoriet = document.getElementById("favoriet_" + id);
     favoriet.style.backgroundImage = "url('img/heart.jpg')"
 }
-//picsHolders maken
-//picsHolder bevat een plaatje van een game en een favoriete symbool
-
-//gameplaatjes toevoegen aan picsHolders
-//favoriteSymbols toevoegen aan picsholders
