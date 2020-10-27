@@ -2,12 +2,13 @@ body {
     font-family: 'Arial', sans-serif;
     text-align: center;
     background-image: url("img/reep.jpg");
+    box-sizing: border-box;
 }
 
 div#top-bar{
     margin: auto;
     width: 1250px;
-    height: 50px;
+    height: 60px;
     border: 1px solid black;
 }
 
@@ -18,7 +19,19 @@ div#beurt {
     border: 1px solid black;
     background-color: white;
     width: 200px;
-    height: 50px;
+    height: 60px;
+    position: relative;
+}
+
+div#tekstbeurt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 div#speler1 {
@@ -31,7 +44,7 @@ div#speler1 {
     background-color: white;
     text-decoration-color: chocolate;
     width: 200px;
-    height: 50px;
+    height: 60px;
 }
 
 div#speler2 {
@@ -44,11 +57,12 @@ div#speler2 {
     background-color: white;
     text-decoration-color: chocolate;
     width: 200px;
-    height: 50px;
+    height: 60px;
 }
 
 h3 {
-    margin: fill;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 div.picture-holder {
