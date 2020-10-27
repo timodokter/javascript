@@ -23,7 +23,7 @@ div#beurt {
     position: relative;
 }
 
-div#tekstbeurt{
+div#tekstbeurt, #tekstspeler1, #tekstspeler2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +58,6 @@ div#speler2 {
     background-color: white;
     width: 200px;
     height: 60px;
-}
-
-h3 {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 div.picture-holder {
