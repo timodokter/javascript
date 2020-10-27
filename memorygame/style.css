@@ -1,11 +1,12 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    align-content: center;
-    background-color: chocolate;
+    background-image: url("img/reep.jpg");
 }
 
 div#top-bar{
+    margin: auto;
+    width: 1250px;
     height: 50px;
     border: 1px solid black;
 }
@@ -23,8 +24,7 @@ div#beurt {
     height: 50px;
 }
 
-h4 {
-    margin: auto;
+h3 {
 }
 
 div.picture-holder {
