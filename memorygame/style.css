@@ -1,8 +1,10 @@
 body {
+    margin: auto;
     font-family: 'Arial', sans-serif;
     text-align: center;
     background-image: url("img/reep.jpg");
     box-sizing: border-box;
+    width: 1250px;
 }
 
 div#top-bar{
@@ -61,11 +63,10 @@ div#speler2 {
 }
 
 div.picture-holder {
-    margin: auto;
     box-sizing: border-box;
-    height: 620px;
-    width: 1250px;
-    border: solid 3px black;
+    height: 200px;
+    width: 200px;
+
 }
 
 div#pics {
