@@ -1,8 +1,9 @@
 body {
     margin: auto;
+    margin-top: 5px;
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-image: url("img/reep.jpg");
+    /*background-image: url("img/reep.jpg");*/
     box-sizing: border-box;
     width: 1250px;
 }
@@ -73,27 +74,7 @@ div#pics {
     position: relative;
 }
 
-/*div.after {*/
-/*    position: absolute;*/
-/*    box-sizing: border-box;*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    right: 0;*/
-/*    background-image: url("img/ps-logo.jpg");*/
-/*    z-index: 2;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*div.picture-holder:hover .after {*/
-/*    display: none;*/
-/*}*/
-
-div#picture-holder1 .after {
-    position: fixed;
+div.foto .after {
     box-sizing: border-box;
     display: inline-block;
     width: 200px;
@@ -107,6 +88,7 @@ div#picture-holder1 .after {
     cursor: pointer;
 }
 
-div#picture-holder1:hover .after {
+div.foto:hover .after {
+    position: relative;
     display: none;
 }
