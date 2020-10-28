@@ -24,7 +24,7 @@ document.getElementById("tekstspeler2").innerHTML = speler2 + " : " + puntenspel
 //foto's
 function createGameImages() {
     pictureHolder = document.getElementsByClassName("picture-holder");
-        for ( i = 1; i < pictureHolder.length; i++) {
+        for (i = 1; i < pictureHolder.length; i++) {
             gamePlaatje = document.createElement("img");
             gamePlaatje.src = "img/game" + (i) + ".jpg";
             gamePlaatje.id = (i);
@@ -35,15 +35,21 @@ function createGameImages() {
 
 //picture holder
 function createPicsHolders() {
+    var idnummer = 1;
     pics = document.getElementById("pics")
     for (aantal = 0; aantal < 2; aantal++) {
-        for(i = 0; i < 9; i++) {
+        for(i = -1; i < 8; i++) {
             pictureHolder = document.createElement("div");
             pictureHolder.className = "picture-holder";
-            pictureHolder.id = "picture-holder" + i;
+            pictureHolder.id = "picture-holder" + idnummer;
             pics.appendChild(pictureHolder);
+            idnummer++;
         }
     }
+}
+
+function dooverlay() {
+    overlay = document.getElementsByClassName("overlay")
 }
 
 //punten-, beurtsysteem
