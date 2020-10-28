@@ -9,6 +9,7 @@ while(randomnumbers.length < 9) {
         randomnumbers.push(random);
     }
 }
+
 random = 0;
 for (var plaatje in plaatjes) {
     plaatjes[plaatje].src = "img/game" + randomnumbers[random] + ".jpg"

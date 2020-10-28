@@ -1,4 +1,6 @@
 //de aangeroepde functions
+createPicsHolders()
+createGameImages()
 
 //de variabelen
 var speler1 = "Timo";
@@ -6,14 +8,38 @@ var speler2 = "Dylan";
 var beurt = " heeft de beurt";
 var puntenspeler1 = 0;
 var puntenspeler2 = 0;
+var pics;
+
 Boolean; beurtspeler1 = true;
 Boolean; zet = true;
 
-//de tekst boven in de top-bar
+//de dom argumenten
 document.getElementById("tekstbeurt").innerHTML = speler1 + " mag beginnen";
 document.getElementById("tekstspeler1").innerHTML = speler1 + " : " + puntenspeler1;
 document.getElementById("tekstspeler2").innerHTML = speler2 + " : " + puntenspeler2;
 document.getElementById("button").addEventListener("click", button)
+pics = document.getElementById("pics")
+
+//foto's
+function createGameImages() {
+    pictureHolder = document.getElementsByClassName("picture-holder");
+    for(var i = 0; i < pictureHolder.length; i++) {
+        gamePlaatje = document.createElement("img");
+        gamePlaatje.src = "img/game" + (i+1) + ".jpg";
+        gamePlaatje.id = (i+1);
+        pictureHolder[i].appendChild(gamePlaatje);
+    }
+    console.log(pictureHolder.length)
+}
+
+//picture holder
+function createPicsHolders() {
+    for(var i = 0; i < 18; i++) {
+        pictureHolder = document.createElement("div");
+        pictureHolder.className = "picture-holder";
+        pictureHolder.id = "picture-holder" + i;
+    }
+}
 
 //punten-, beurtsysteem
 

@@ -67,3 +67,7 @@ div.picture-holder {
     width: 1250px;
     border: solid 3px black;
 }
+
+div#pics {
+    border: 1px solid black;
+}
