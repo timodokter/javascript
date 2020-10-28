@@ -1,5 +1,4 @@
 //de aangeroepde functions
-createPicsHolders()
 createGameImages()
 
 //de variabelen
@@ -38,7 +37,7 @@ function createPicsHolders() {
     var idnummer = 1;
     pics = document.getElementById("pics")
     for (aantal = 0; aantal < 2; aantal++) {
-        for(i = -1; i < 8; i++) {
+        for(i = 0; i < 8; i++) {
             pictureHolder = document.createElement("div");
             pictureHolder.className = "picture-holder";
             pictureHolder.id = "picture-holder" + idnummer;
