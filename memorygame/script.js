@@ -10,7 +10,7 @@ var puntenspeler1 = 0;
 var puntenspeler2 = 0;
 var pics;
 var aantal = 0;
-var i = 0
+var i = 1
 
 Boolean; beurtspeler1 = true;
 Boolean; zet = true;
@@ -24,17 +24,12 @@ document.getElementById("tekstspeler2").innerHTML = speler2 + " : " + puntenspel
 //foto's
 function createGameImages() {
     pictureHolder = document.getElementsByClassName("picture-holder");
-        for ( i = 0; i < pictureHolder.length; i++) {
+        for ( i = 1; i < pictureHolder.length; i++) {
             gamePlaatje = document.createElement("img");
-            if (aantal = 0) {
-                gamePlaatje.src = "img/game" + (i - 9) + ".jpg";
-            } else if (aantal = 1) {
-                gamePlaatje.src = "img/game" + (i) + ".jpg";
-            }
-            gamePlaatje.id = (i + 1);
+            gamePlaatje.src = "img/game" + (i) + ".jpg";
+            gamePlaatje.id = (i);
             pictureHolder[i].appendChild(gamePlaatje);
         }
-        aantal++
         console.log(pictureHolder.length)
 }
 
