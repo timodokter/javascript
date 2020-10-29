@@ -1,6 +1,5 @@
 //de aangeroepde functions
-fotolader()
-addidonimg()
+AddIdOnImg()
 
 //de variabelen
 var speler1 = "Timo";
@@ -18,19 +17,13 @@ document.getElementById("tekstbeurt").innerHTML = speler1 + " mag beginnen";
 document.getElementById("tekstspeler1").innerHTML = speler1 + " : " + puntenspeler1;
 document.getElementById("tekstspeler2").innerHTML = speler2 + " : " + puntenspeler2;
 
-function dooverlay() {
+function DoOverlay() {
     overlay = document.getElementsByClassName("overlay")
 }
 
-//picture-holder lader
-function pictureholderlader() {
-    pictureHolder = document.createElement("div")
-    pictureHolder.className = "picture-holder"
-}
-
 //fotos lader
-function fotolader() {
-    var container = document.getElementById("container");
+function FotoLader() {
+    var container = document.getElementsByClassName("container");
     var images = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg"];
     for (aantal = 0; aantal < 2; aantal++) {
         for (var i = 0; i < 9; i++) {
@@ -45,16 +38,16 @@ function fotolader() {
     }
 }
 
-function addidonimg() {
-    var cls = document.getElementsByClassName("foto");
+function AddIdOnImg() {
+    var idnummer = document.getElementsByClassName("foto");
     for (var i = 0; i < 18; i++) {
-        cls[i].id = "img_" + (i + 1);
-        console.log(cls[i])
+        idnummer[i].id = "img_" + (i + 1);
+        console.log(idnummer[i])
     }
 }
 
 //punten-, beurtsysteem
-function beurtsysteem() {
+function BeurtSysteem() {
     if (puntenspeler1 % 5 === 0) {
         beurtspeler1 = false;
         zet = false;
@@ -64,8 +57,8 @@ function beurtsysteem() {
     }
 }
 
-function zetsysteem() {
-    beurtsysteem()
+function ZetSysteem() {
+    BeurtSysteem()
     if (zet === true) {
         document.getElementById("tekstbeurt").innerHTML = speler1 + beurt;
     } else if (zet === false){
