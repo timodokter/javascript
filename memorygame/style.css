@@ -74,7 +74,7 @@ div#pics {
     position: relative;
 }
 
-div.foto .after {
+.foto .after {
     box-sizing: border-box;
     display: inline-block;
     width: 200px;
@@ -88,7 +88,7 @@ div.foto .after {
     cursor: pointer;
 }
 
-div.foto:hover .after {
+.foto:hover .after {
     position: relative;
     display: none;
 }
