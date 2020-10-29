@@ -1,5 +1,6 @@
 //de aangeroepde functions
 fotolader()
+addidonimg()
 
 //de variabelen
 var speler1 = "Timo";
@@ -42,11 +43,13 @@ function fotolader() {
             container.appendChild(fmg);
         }
     }
-    var idnummer = 0;
+}
+
+function addidonimg() {
+    var cls = document.getElementsByClassName("foto");
     for (var i = 0; i < 18; i++) {
-        idnummer++;
-        console.log(idnummer)
-        fmg.setAttribute("id", idnummer)
+        cls[i].id = "img_" + (i + 1);
+        console.log(cls[i])
     }
 }
 
