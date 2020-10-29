@@ -67,10 +67,10 @@ div.foto {
 }
 
 div.picture-holder {
-    display: inline;
+    display: grid;
     box-sizing: border-box;
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 1250px;
     margin: 4px;
 }
 
@@ -78,9 +78,10 @@ div.picture-holder {
     position: relative;
     width: 200px;
     height: 200px;
+    margin: 0;
 }
 
-#img_1 {
+#img_1,#img_2,#img_3,#img_4,#img_5,#img_6,#img_7,#img_8,#img_9,#img_10,#img_11,#img_12,#img_13,#img_14,#img_15,#img_16,#img_17,#img_18 {
     width: 200px;
     height: 200px;
     display: block;
