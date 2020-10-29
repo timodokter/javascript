@@ -1,5 +1,5 @@
 //de aangeroepde functions
-
+fotolader()
 
 //de variabelen
 var speler1 = "Timo";
@@ -8,7 +8,6 @@ var beurt = " heeft de beurt";
 var puntenspeler1 = 0;
 var puntenspeler2 = 0;
 var aantal = 0;
-var tester = 0;
 
 Boolean; beurtspeler1 = true;
 Boolean; zet = true;
@@ -34,8 +33,6 @@ function fotolader() {
     var images = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg"];
     for (aantal = 0; aantal < 2; aantal++) {
         for (var i = 0; i < 9; i++) {
-            // tester + 1;
-            // console.log(tester)
             var fmg = document.createElement("img");
             fmg.setAttribute("src", "img/" + images[i]);
             fmg.setAttribute("class", "foto");
@@ -44,6 +41,12 @@ function fotolader() {
             console.log("img/" + images[i]);
             container.appendChild(fmg);
         }
+    }
+    var idnummer = 0;
+    for (var i = 0; i < 18; i++) {
+        idnummer++;
+        console.log(idnummer)
+        fmg.setAttribute("id", idnummer)
     }
 }
 
