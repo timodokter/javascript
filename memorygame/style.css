@@ -1,3 +1,4 @@
+
 body {
     margin: auto;
     margin-top: 5px;
@@ -6,12 +7,14 @@ body {
     /*background-image: url("img/reep.jpg");*/
     box-sizing: border-box;
     width: 1250px;
+    background-color: aquamarine;
 }
 
 div#top-bar{
     margin: auto;
     width: 1250px;
     height: 60px;
+    grid-column: 1/7;
 }
 
 div#beurt {
@@ -67,11 +70,13 @@ div.foto {
 }
 
 div.picture-holder {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1/7;
     box-sizing: border-box;
-    height: auto;
-    width: 1250px;
-    margin: 4px;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container {
@@ -93,8 +98,8 @@ div.picture-holder {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 200px;
+    width: 200px;
     opacity: 1;
     background-image: url("img/ps-logo.jpg");
     display: block;

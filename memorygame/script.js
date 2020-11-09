@@ -42,7 +42,7 @@ function AddIdOnImg() {
     var idnummer = document.getElementsByClassName("foto");
     for (var i = 0; i < 18; i++) {
         idnummer[i].id = "img_" + (i + 1);
-        console.log(idnummer[i])
+        // console.log(idnummer[i])
     }
 }
 

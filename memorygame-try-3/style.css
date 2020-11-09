@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+    width: 1237px;
+    margin: 0 auto;
+}
+
+div#SCORES {
+    width: 1237px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+div#grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3 , 205px);
+    column-gap: 5px;
+}
+
+div.picture-holder {
+    width: 200px;
+    height: 200px;
+    border: black solid 1px;
+}
