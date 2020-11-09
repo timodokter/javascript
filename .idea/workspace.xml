@@ -19,21 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1302270-1796-4737-9a12-2c4be8eb53b7" name="Default Changelist" comment="de tekst voor wie zijn beurt het is werkt">
+    <list default="true" id="b1302270-1796-4737-9a12-2c4be8eb53b7" name="Default Changelist" comment="hij is af alleen de overlkay komt niet terug als ze niet hetzelfde zijn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/img/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/img/game9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/memorygame-try-3/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame-try-3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorygame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +107,7 @@
       <workItem from="1604398160477" duration="13000" />
       <workItem from="1604484191807" duration="7000" />
       <workItem from="1604562410431" duration="37000" />
-      <workItem from="1604907546693" duration="11904000" />
+      <workItem from="1604907546693" duration="14002000" />
     </task>
     <task id="LOCAL-00001" summary="mijn eerste javascript bestand is aangemaakt">
       <created>1603102135128</created>
@@ -436,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604913283247</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="hij is af alleen de overlkay komt niet terug als ze niet hetzelfde zijn">
+      <created>1604920210561</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1604920210561</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +450,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="de games staan nu in de pictureholders" />
     <MESSAGE value="de games staan nu op de goede plek en het vak waar het hartje in komt staat ook op de goede plek" />
     <MESSAGE value="de hartjes zijn toegevoegd en werken alleen er staan er nog 2 in plaats van 1" />
     <MESSAGE value="alles werkt en hij is af" />
@@ -480,7 +474,8 @@
     <MESSAGE value="img 1 en img 2 staan er nu kijken of we ze naast elkaar kunnen zetten" />
     <MESSAGE value="opnieuw begonnen aan de memory game en de eerste overlay staat er" />
     <MESSAGE value="de tekst voor wie zijn beurt het is werkt" />
-    <option name="LAST_COMMIT_MESSAGE" value="de tekst voor wie zijn beurt het is werkt" />
+    <MESSAGE value="hij is af alleen de overlkay komt niet terug als ze niet hetzelfde zijn" />
+    <option name="LAST_COMMIT_MESSAGE" value="hij is af alleen de overlkay komt niet terug als ze niet hetzelfde zijn" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1603966814750">
@@ -499,10 +494,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603789423965" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604913284782">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604920212042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604913284782" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604920212042" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603896233988" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1603880317827">
       <screen x="0" y="0" width="1920" height="1040" />

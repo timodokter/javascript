@@ -1,6 +1,6 @@
 var winner = null;
 var zetten = 0;
-var laatsGeklikt = null;
+var laatstGeklikt = null;
 var volgendeZet = true;
 
 var speler1 = "Timo: ";
@@ -19,17 +19,17 @@ toonPlayer();
 toonScore();
 
 //gekozen kaart
-function opdrachtGeklikteKaart() {
-    if (this.id !== laatsGeklikt && volgendeZet) {
+var opdrachtGeklikteKaart = function () {
+    if (this.id !== laatstGeklikt && volgendeZet) {
         zetten++;
-        laatsGeklikt = this.id;
+        laatstGeklikt = this.id;
         draaiKaart(this.id);
         if (zetten === 2) {
             zoekVoorOvereenkomst();
             resetSpelEnVariabelen();
         }
     }
-}
+};
 
 // Methode voor overlay weghalen
 var reageerOpKlik = function () {
@@ -41,7 +41,7 @@ var reageerOpKlik = function () {
     }
     button.style.display = 'none';
     zetten = 0;
-    laatstGekilkt = null;
+    laatstGeklikt = null;
     volgendeZet = true;
     veranderSpeler();
     toonPlayer();
@@ -122,7 +122,7 @@ function zoekVoorOvereenkomst() {
         var alleOverlays = document.getElementsByClassName("overlay");
         for (var i = 0; i < plaatjesArray.length ; i++) {
             if (plaatjesArray[i] === winnendeGame) {
-                alleOverlays[i].removeEventListener("click",opdrachtGeklikteKaart);
+                alleOverlays[i].removeEventListener('click',opdrachtGeklikteKaart);
                 console.log("Verwijderde eventlistener" + i);
                 plaatjesArray[i] = null;
             }
@@ -132,7 +132,7 @@ function zoekVoorOvereenkomst() {
 
 //verander speler
 function veranderSpeler() {
-    if (spelerAanZet = 0) {
+    if (spelerAanZet === 0) {
         spelerAanZet = 1
     } else {
         spelerAanZet = 0
