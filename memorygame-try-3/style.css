@@ -1,14 +1,43 @@
 body {
+    font-family: Arial, sans-serif;
     background-color: aquamarine;
     width: 1237px;
     margin: 0 auto;
 }
 
 div#SCORES {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 1237px;
     height: 100px;
     background-color: yellow;
     margin-top: 10px;
+}
+
+div#spelers {
+    line-height: 100px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width: 1237px;
+    justify-content: space-between;
+}
+
+div.punten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+
+div.beurtspeler {
+    background-color: white;
+    color: black;
+    width: 200px;
 }
 
 div#grid {

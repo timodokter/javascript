@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1302270-1796-4737-9a12-2c4be8eb53b7" name="Default Changelist" comment="opnieuw begonnen aan de memory game en de eerste overlay staat er">
+      <change beforePath="$PROJECT_DIR$/memorygame-try-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memorygame-try-3/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memorygame-try-3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j5lYRtvegQhSF8rgIb8MEu2TtS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/memorygame-try-3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitrepos\javascript\memorygame\img" />
+      <recent name="D:\gitrepos\javascript\memorygame" />
+      <recent name="D:\gitrepos\javascript\functies\opdracht4.1" />
+      <recent name="D:\gitrepos\javascript\opdracht1\opdracht1.2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitrepos\javascript\memorygame-try-3" />
+      <recent name="D:\gitrepos\javascript\memorygame\img" />
+      <recent name="D:\gitrepos\javascript\DOM\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1302270-1796-4737-9a12-2c4be8eb53b7" name="Default Changelist" comment="" />
+      <created>1603101880811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603101880811</updated>
+      <workItem from="1603101881865" duration="933000" />
+      <workItem from="1603106324937" duration="122000" />
+      <workItem from="1603179485012" duration="6427000" />
+      <workItem from="1603267532967" duration="62000" />
+      <workItem from="1603270460342" duration="4995000" />
+      <workItem from="1603352981205" duration="7736000" />
+      <workItem from="1603440138789" duration="299000" />
+      <workItem from="1603440480741" duration="5864000" />
+      <workItem from="1603536246362" duration="9000" />
+      <workItem from="1603710405363" duration="43000" />
+      <workItem from="1603784735976" duration="16652000" />
+      <workItem from="1603815013014" duration="4000" />
+      <workItem from="1603871462146" duration="16991000" />
+      <workItem from="1603891351717" duration="4473000" />
+      <workItem from="1603956668102" duration="25791000" />
+      <workItem from="1604046550176" duration="4632000" />
+      <workItem from="1604177984588" duration="73000" />
+      <workItem from="1604245852127" duration="2000" />
+      <workItem from="1604396387993" duration="3000" />
+      <workItem from="1604398160477" duration="13000" />
+      <workItem from="1604484191807" duration="7000" />
+      <workItem from="1604562410431" duration="37000" />
+      <workItem from="1604907546693" duration="4995000" />
+    </task>
+    <task id="LOCAL-00001" summary="mijn eerste javascript bestand is aangemaakt">
+      <created>1603102135128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603102135128</updated>
+    </task>
+    <task id="LOCAL-00002" summary="opdracht 1 is af">
+      <created>1603102790894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603102790894</updated>
+    </task>
+    <task id="LOCAL-00003" summary="opdracht 2.1 is af">
+      <created>1603182166510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603182166510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="opdracht 2.1 is af">
+      <created>1603182591313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603182591313</updated>
+    </task>
+    <task id="LOCAL-00005" summary="opdracht 2.2 is af">
+      <created>1603190769382</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603190769382</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bestanden en mappen zijn aangemakt voor de arrays">
+      <created>1603270984879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603270984879</updated>
+    </task>
+    <task id="LOCAL-00007" summary="alle fotos zijn toegevoegd">
+      <created>1603271821306</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603271821306</updated>
+    </task>
+    <task id="LOCAL-00008" summary="het begin is gemaakt">
+      <created>1603272017307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603272017307</updated>
+    </task>
+    <task id="LOCAL-00009" summary="alle fotos zijn naar het goede formaat gezet">
+      <created>1603272789764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603272789764</updated>
+    </task>
+    <task id="LOCAL-00010" summary="alle fotos zijn naar het goede formaat gezet en het begin van de shuffle is er">
+      <created>1603274973245</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603274973245</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hij werkt">
+      <created>1603275810553</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603275810553</updated>
+    </task>
+    <task id="LOCAL-00012" summary="opdracht 4.1 is af ben bezig met 4.2">
+      <created>1603355143899</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603355143900</updated>
+    </task>
+    <task id="LOCAL-00013" summary="4.2 het plaatje staat er">
+      <created>1603356206053</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603356206053</updated>
+    </task>
+    <task id="LOCAL-00014" summary="4.2 is af">
+      <created>1603357200338</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603357200338</updated>
+    </task>
+    <task id="LOCAL-00015" summary="4.3 alle bestanden zijn gemaakt en toegevoegd">
+      <created>1603357813087</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603357813087</updated>
+    </task>
+    <task id="LOCAL-00016" summary="de placeholder voor de plaatjes staan er">
+      <created>1603358820151</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603358820151</updated>
+    </task>
+    <task id="LOCAL-00017" summary="4.3 is af">
+      <created>1603360634168</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603360634168</updated>
+    </task>
+    <task id="LOCAL-00018" summary="de bestanden voor h5 zijn toegevoegd samen met de foto's">
+      <created>1603440699409</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603440699409</updated>
+    </task>
+    <task id="LOCAL-00019" summary="de basis voor het css bestand is toegevoegd">
+      <created>1603441234381</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603441234381</updated>
+    </task>
+    <task id="LOCAL-00020" summary="de rode vlakken staan er allemaal met de lijntjes ertussen">
+      <created>1603443160572</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603443160572</updated>
+    </task>
+    <task id="LOCAL-00021" summary="de games staan nu in de pictureholders">
+      <created>1603444220882</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603444220882</updated>
+    </task>
+    <task id="LOCAL-00022" summary="de games staan nu op de goede plek en het vak waar het hartje in komt staat ook op de goede plek">
+      <created>1603444737699</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603444737699</updated>
+    </task>
+    <task id="LOCAL-00023" summary="de hartjes zijn toegevoegd en werken alleen er staan er nog 2 in plaats van 1">
+      <created>1603445479430</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603445479430</updated>
+    </task>
+    <task id="LOCAL-00024" summary="alles werkt en hij is af">
+      <created>1603445741228</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603445741228</updated>
+    </task>
+    <task id="LOCAL-00025" summary="alle bestanden zijn aangemaakt en de plaaatjes zijn toegevoegd">
+      <created>1603785771945</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603785771945</updated>
+    </task>
+    <task id="LOCAL-00026" summary="de omheining voor de foto's is er en het vakje vor wie zijn beurt het is ook">
+      <created>1603789033583</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603789033583</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ik heb een achtergrond foto ingesteld">
+      <created>1603789896563</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603789896563</updated>
+    </task>
+    <task id="LOCAL-00028" summary="testing">
+      <created>1603792542165</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603792542165</updated>
+    </task>
+    <task id="LOCAL-00029" summary="het beurt vakje is af">
+      <created>1603795479551</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603795479551</updated>
+    </task>
+    <task id="LOCAL-00030" summary="ik moest nog een paar kleine aanpassingen maken">
+      <created>1603795675825</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603795675825</updated>
+    </task>
+    <task id="LOCAL-00031" summary="de tekst staat nu allemaal nu nog het punten systeem">
+      <created>1603799664066</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603799664066</updated>
+    </task>
+    <task id="LOCAL-00032" summary="het beurtsysteem en zetsysteem en de button werken allemaal">
+      <created>1603803334172</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603803334172</updated>
+    </task>
+    <task id="LOCAL-00033" summary="hij laat nu 1 foto zien">
+      <created>1603874027507</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603874027507</updated>
+    </task>
+    <task id="LOCAL-00034" summary="hij laat nu 9 van de 18 foto's zien">
+      <created>1603878678072</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603878678072</updated>
+    </task>
+    <task id="LOCAL-00035" summary="hij laat nu 18 foto's zien maar nog niet random of naast elkaar">
+      <created>1603879277567</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603879277567</updated>
+    </task>
+    <task id="LOCAL-00036" summary="picture holder overlay 1 doet het maakt positionering klopt nog niet helemaal">
+      <created>1603888441686</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603888441686</updated>
+    </task>
+    <task id="LOCAL-00037" summary="picture holder 1 is af">
+      <created>1603889046230</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603889046230</updated>
+    </task>
+    <task id="LOCAL-00038" summary="we mogen weer bijna vanaf het begin beginnen">
+      <created>1603896231388</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1603896231388</updated>
+    </task>
+    <task id="LOCAL-00039" summary="de plaatjes staan er nu de overlay">
+      <created>1603968537461</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1603968537461</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ik heb nu id's toegevoegd maar alleen de laatste krijgt een id">
+      <created>1603969465873</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1603969465873</updated>
+    </task>
+    <task id="LOCAL-00041" summary="alle plaatjes hebben nu een id">
+      <created>1603969957650</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1603969957650</updated>
+    </task>
+    <task id="LOCAL-00042" summary="er is progressie">
+      <created>1603980712899</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980712899</updated>
+    </task>
+    <task id="LOCAL-00043" summary="img 1 en img 2 staan er nu kijken of we ze naast elkaar kunnen zetten">
+      <created>1603982013190</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1603982013190</updated>
+    </task>
+    <task id="LOCAL-00044" summary="opnieuw begonnen aan de memory game en de eerste overlay staat er">
+      <created>1604910902245</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1604910902245</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="de rode vlakken staan er allemaal met de lijntjes ertussen" />
+    <MESSAGE value="de games staan nu in de pictureholders" />
+    <MESSAGE value="de games staan nu op de goede plek en het vak waar het hartje in komt staat ook op de goede plek" />
+    <MESSAGE value="de hartjes zijn toegevoegd en werken alleen er staan er nog 2 in plaats van 1" />
+    <MESSAGE value="alles werkt en hij is af" />
+    <MESSAGE value="alle bestanden zijn aangemaakt en de plaaatjes zijn toegevoegd" />
+    <MESSAGE value="de omheining voor de foto's is er en het vakje vor wie zijn beurt het is ook" />
+    <MESSAGE value="ik heb een achtergrond foto ingesteld" />
+    <MESSAGE value="testing" />
+    <MESSAGE value="het beurt vakje is af" />
+    <MESSAGE value="ik moest nog een paar kleine aanpassingen maken" />
+    <MESSAGE value="de tekst staat nu allemaal nu nog het punten systeem" />
+    <MESSAGE value="het beurtsysteem en zetsysteem en de button werken allemaal" />
+    <MESSAGE value="hij laat nu 1 foto zien" />
+    <MESSAGE value="hij laat nu 9 van de 18 foto's zien" />
+    <MESSAGE value="hij laat nu 18 foto's zien maar nog niet random of naast elkaar" />
+    <MESSAGE value="picture holder overlay 1 doet het maakt positionering klopt nog niet helemaal" />
+    <MESSAGE value="picture holder 1 is af" />
+    <MESSAGE value="we mogen weer bijna vanaf het begin beginnen" />
+    <MESSAGE value="de plaatjes staan er nu de overlay" />
+    <MESSAGE value="ik heb nu id's toegevoegd maar alleen de laatste krijgt een id" />
+    <MESSAGE value="alle plaatjes hebben nu een id" />
+    <MESSAGE value="er is progressie" />
+    <MESSAGE value="img 1 en img 2 staan er nu kijken of we ze naast elkaar kunnen zetten" />
+    <MESSAGE value="opnieuw begonnen aan de memory game en de eerste overlay staat er" />
+    <option name="LAST_COMMIT_MESSAGE" value="opnieuw begonnen aan de memory game en de eerste overlay staat er" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1603966814750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603966814750" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1603790363432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603790363432" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603440597523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603440597523" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603789423965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603789423965" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604910903337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604910903337" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603896233988" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603880317827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603880317827" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604912022649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604912022649" />
+  </component>
+</project>
