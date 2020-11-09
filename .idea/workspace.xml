@@ -22,6 +22,7 @@
     <list default="true" id="b1302270-1796-4737-9a12-2c4be8eb53b7" name="Default Changelist" comment="hij is af alleen de overlkay komt niet terug als ze niet hetzelfde zijn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/memorygame-try-3/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memorygame-try-3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/memorygame-try-3/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,7 @@
       <workItem from="1604398160477" duration="13000" />
       <workItem from="1604484191807" duration="7000" />
       <workItem from="1604562410431" duration="37000" />
-      <workItem from="1604907546693" duration="14002000" />
+      <workItem from="1604907546693" duration="16326000" />
     </task>
     <task id="LOCAL-00001" summary="mijn eerste javascript bestand is aangemaakt">
       <created>1603102135128</created>
@@ -431,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604920210561</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="hij is af alleen de overlkay komt niet terug als ze niet hetzelfde zijn">
+      <created>1604922043164</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1604922043164</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,10 +502,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603789423965" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604920212042">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604922044205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604920212042" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604922044205" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603896233988" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1603880317827">
       <screen x="0" y="0" width="1920" height="1040" />

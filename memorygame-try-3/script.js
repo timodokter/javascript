@@ -36,7 +36,7 @@ var reageerOpKlik = function () {
     var alleOverlays = document.getElementsByClassName("overlay");
     for (var i = 0; i < alleOverlays.length ; i++) {
         if (plaatjesArray[i] != null) {
-            alleOverlays[i].style.background = 'url(\"img/ps-logo.jpg"\")';
+            alleOverlays[i].style.background = 'url(\"IMG/ps-logo.jpg\")';
         }
     }
     button.style.display = 'none';
@@ -120,9 +120,9 @@ function zoekVoorOvereenkomst() {
         toonScore();
 
         var alleOverlays = document.getElementsByClassName("overlay");
-        for (var i = 0; i < plaatjesArray.length ; i++) {
+        for (var i = 0; i < 18 ; i++) {
             if (plaatjesArray[i] === winnendeGame) {
-                alleOverlays[i].removeEventListener('click',opdrachtGeklikteKaart);
+                alleOverlays[i].removeEventListener("click",opdrachtGeklikteKaart);
                 console.log("Verwijderde eventlistener" + i);
                 plaatjesArray[i] = null;
             }

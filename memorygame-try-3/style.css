@@ -29,12 +29,14 @@ div#picture-holders {
 }
 
 button#button {
+    top: auto;
     position: absolute;
     border: 1px black solid;
     background: white;
     color: black;
     font-size: 2em;
     padding: 20px;
+    margin-top: 360px;
 }
 
 div#players {
